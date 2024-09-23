@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Forum</h1>
+    </header>
+
+    <section id="forum-threads">
+        <h2>Threads</h2>
+        <div id="threads-container"></div>
+    </section>
+
+    <section id="new-thread">
+        <h2>Create a New Thread</h2>
+        <form id="thread-form">
+            <input type="text" id="thread-title" placeholder="Thread Title" required>
+            <textarea id="thread-body" placeholder="Enter your message" required></textarea>
+            <button type="submit">Post Thread</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
