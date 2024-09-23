@@ -20,7 +20,7 @@ function addThread(title, body) {
     threadContainer.classList.add('thread');
     
     const threadTitle = document.createElement('h3');
-    threadTitle.innerText = title;
+    threadTitle.innerText = `Anonymous: ${title}`;
 
     const threadBody = document.createElement('p');
     threadBody.innerText = body;
@@ -45,3 +45,4 @@ function loadThreads() {
         addThread(thread.title, thread.body);
     });
 }
+
